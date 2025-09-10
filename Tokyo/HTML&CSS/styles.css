@@ -1,7 +1,18 @@
-header {
+body {
+    margin: 0;
+}
+
+.header {
     background-color: black;
+    margin: 0;
+    width: 100%;
+}
+
+.main {
+    margin: 2% 0px;
 }
 
 .logo {
-    
+    width: 110px;
+    height: auto;
 }
