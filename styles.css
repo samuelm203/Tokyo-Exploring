@@ -40,3 +40,34 @@ footer {
     height: auto;
     margin: 10px;
 }
+
+.article {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px ;
+}
+
+.titelUnterseite {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.beschreibungSeite {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.titelArtikel {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
