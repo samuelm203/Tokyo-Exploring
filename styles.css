@@ -375,3 +375,11 @@ footer {
     font-size: 20px;
     font-weight: bold;
 }
+
+#dataprotection {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 40px;
+}
