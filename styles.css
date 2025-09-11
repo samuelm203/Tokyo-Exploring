@@ -316,8 +316,53 @@ footer {
 
 .streetfoodmenu-inner {
     width: 90%;
-    height: 60px;
+    height: 450px;
     background: black;
     border-radius: 16px;
-    margin-top: 20px;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    overflow: hidden;       
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.streetfoodmenu-inner img {
+    height: 80%;            
+    width: auto;
+    object-fit: contain;
+    display: block;
+    margin-left: 0;        
+    margin-right: 30px;   
+    order: 2;               
+}
+
+.streetfoodmenupicture {
+    margin: 30px 0px;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#streetfoodmenutext {
+    margin: 30px 50px 30px 0;
+    color: white;
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 600px; 
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    order: 1; 
+}
+
+#streetfoodmenulink {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #823038;
+    border-radius: 16px;
 }
