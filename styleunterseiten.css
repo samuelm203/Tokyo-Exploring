@@ -1,3 +1,7 @@
+main {
+  background-color: #823038;
+}
+
 .articles-container {
   display: flex;
   justify-content: center;
@@ -32,7 +36,7 @@
   font-weight: 700;
   text-align: center;
   margin-bottom: 20px;
-  color: #823038;
+  color: #ffffff;
 }
 
 .beschreibungSeite {
@@ -41,7 +45,7 @@
   text-align: center;
   margin-bottom: 30px;
   padding: 0 20px;
-  color: #444;
+  color: #f0f0f0;
   line-height: 1.6;
 }
 
@@ -67,5 +71,5 @@ img {
   font-size: 14px;
   text-align: center;
   margin-top: 12px;
-  color: #666;
+  color: #000000;
 }
