@@ -21,7 +21,7 @@ body {
 
 .nav {
     grid-area: nav;
-    background-color: #00DFFF;
+    background-color: #4f759b;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,6 +30,9 @@ body {
 .navlink {
     text-decoration: none;
     margin: auto;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .main {
