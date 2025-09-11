@@ -366,3 +366,12 @@ footer {
     background-color: #823038;
     border-radius: 16px;
 }
+
+/*Footer Links */
+
+#contactfooter {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
