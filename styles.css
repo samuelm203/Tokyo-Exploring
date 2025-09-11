@@ -158,3 +158,55 @@ footer {
     border-radius: 10px;
     margin-top: 20px;
 }
+
+#sightsmenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    text-shadow: 8px 8px 32px rgba(0,0,0,0.7);
+    margin: 34px 10px 10px 10px;
+    font-weight: bold;
+    width: auto;
+    font-size: 48px;
+    background-color: #4f759b;
+    border-radius: 16px;
+    padding: 20px 40px;
+    box-sizing: border-box;
+}
+
+.sightsmenu-inner {
+    width: 80%;
+    height: 60px;
+    background: black;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#streetfoodmenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    text-shadow: 8px 8px 32px rgba(0,0,0,0.7);
+    margin: 34px 10px 10px 10px;
+    font-weight: bold;
+    width: auto;
+    font-size: 48px;
+    background-color: #4f759b;
+    border-radius: 16px;
+    padding: 20px 40px;
+    box-sizing: border-box;
+}
+
+.streetfoodmenu-inner {
+    width: 80%;
+    height: 60px;
+    background: black;
+    border-radius: 10px;
+    margin-top: 20px;
+}
