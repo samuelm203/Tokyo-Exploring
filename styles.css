@@ -172,7 +172,7 @@ footer {
 }
 
 .hotelsmenu-inner {
-    width: 95%;
+    width: 90%;
     height: 120px;
     background: black;
     border-radius: 10px;
@@ -198,11 +198,28 @@ footer {
 }
 
 .sightsmenu-inner {
-    width: 80%;
-    height: 60px;
+    width: 90%;
+    height: 450px;
     background: black;
     border-radius: 10px;
     margin-top: 20px;
+    display: flex;
+    align-items: center;    
+    justify-content: flex-start; 
+    overflow: hidden;       
+    padding-left: 20px;     
+}
+
+.sightsmenu-inner img {
+    height: 80%;            
+    width: auto;
+    object-fit: contain; 
+    display: block;
+    margin-left: 30px;
+}
+
+.sightsmenupicture {
+    margin: 30px 0px;
 }
 
 #streetfoodmenu {
@@ -224,7 +241,7 @@ footer {
 }
 
 .streetfoodmenu-inner {
-    width: 80%;
+    width: 90%;
     height: 60px;
     background: black;
     border-radius: 10px;
