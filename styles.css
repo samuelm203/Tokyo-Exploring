@@ -47,12 +47,26 @@ html {
     grid-area: main;
     background-color: #823038;
     margin: 0 2%;
+    border-radius: 8px;
 }
 
 footer {
     grid-area: footer;
     background-color: black;
     height: auto;
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+}
+
+#footerkontakt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; 
+    margin-left: 24px;
+    color: white;
+    height: 100%;
 }
 
 .logo {
