@@ -175,7 +175,7 @@ footer {
     width: 90%;
     height: 120px;
     background: black;
-    border-radius: 10px;
+    border-radius: 16px;
     margin-top: 20px;
 }
 
@@ -201,8 +201,7 @@ footer {
     width: 90%;
     height: 450px;
     background: black;
-    border-radius: 10px;
-    margin-top: 20px;
+    border-radius: 16px;
     display: flex;
     align-items: center;    
     justify-content: flex-start; 
@@ -220,6 +219,17 @@ footer {
 
 .sightsmenupicture {
     margin: 30px 0px;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#sightsmenutext {
+    margin: 30px 50px;
+    color: white;
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 600px; 
 }
 
 #streetfoodmenu {
@@ -244,6 +254,6 @@ footer {
     width: 90%;
     height: 60px;
     background: black;
-    border-radius: 10px;
+    border-radius: 16px;
     margin-top: 20px;
 }
