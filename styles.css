@@ -152,6 +152,8 @@ footer {
     margin-bottom: 20px;
 }
 
+/* Hotels Menu Styles */
+
 #hotelsmenu {
     display: flex;
     flex-direction: column;
@@ -177,6 +179,8 @@ footer {
     border-radius: 16px;
     margin-top: 20px;
 }
+
+/* Sights Menu Styles */
 
 #sightsmenu {
     display: flex;
@@ -211,7 +215,7 @@ footer {
 .sightsmenu-inner img {
     height: 80%;            
     width: auto;
-    object-fit: contain; 
+    object-fit: contain;
     display: block;
     margin-left: 30px;
 }
@@ -244,6 +248,8 @@ footer {
     background-color: #823038;
     border-radius: 16px;
 }
+
+/* Streetfood Menu Styles */
 
 #streetfoodmenu {
     display: flex;
