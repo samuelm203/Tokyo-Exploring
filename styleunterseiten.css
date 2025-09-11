@@ -5,16 +5,17 @@ main {
 .articles-container {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: stretch; 
   gap: 40px;
   flex-wrap: wrap;
   padding: 20px;
 }
 
 .article {
+  flex: 1 1 300px; 
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: column; 
+  justify-content: space-between;
   padding: 30px 40px;
 
   background-color: #fff;
@@ -24,6 +25,7 @@ main {
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   max-width: 350px;
 }
+
 
 .article:hover {
   transform: translateY(-5px);
@@ -72,4 +74,16 @@ img {
   text-align: center;
   margin-top: 12px;
   color: #000000;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #823038;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
