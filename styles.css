@@ -35,11 +35,15 @@ body {
     font-weight: bold;
 }
 
+.navlink:hover {
+    color: #823038;
+}
+
 .main {
     grid-area: main;
-    background-color: #FF4EC8;
+    background-color: #823038;
     margin: 0 2%;
-    min-height: 900px;
+    min-height: auto;
 }
 
 footer {
