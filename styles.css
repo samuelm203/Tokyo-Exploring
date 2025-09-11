@@ -230,6 +230,20 @@ footer {
     font-size: 18px;
     line-height: 1.5;
     max-width: 600px; 
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+#sightsmenulink {
+    width: 100px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #823038;
+    border-radius: 16px;
 }
 
 #streetfoodmenu {
