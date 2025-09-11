@@ -12,7 +12,7 @@ html {
 
     grid-gap: 2px;
     grid-template-columns: 80px auto;
-    grid-template-rows: 80px auto 80px;
+    grid-template-rows: 80px auto auto;
     grid-template-areas: "header nav"
                           "main main"
                           "footer footer";
@@ -47,16 +47,22 @@ html {
     grid-area: main;
     background-color: #823038;
     margin: 0 2%;
-    min-height: auto;
 }
 
 footer {
     grid-area: footer;
     background-color: black;
+    height: auto;
 }
 
 .logo {
     width: 70px;
+    height: 70px;
+    margin: 5px;
+}
+
+.logofooter {
+    width: 70pxpx;
     height: 70px;
     margin: 5px;
 }
@@ -99,7 +105,7 @@ footer {
     width: 100%;
     pointer-events: none;
     font-size: 64px;
-    z-index: 2; /* Damit der Text über dem Schatten bleibt */
+    z-index: 2;
 }
 
 .article {
@@ -135,7 +141,7 @@ footer {
 
 #hotelsmenu {
     display: flex;
-    flex-direction: column; /* Damit das innere Rechteck unter dem Text steht */
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
