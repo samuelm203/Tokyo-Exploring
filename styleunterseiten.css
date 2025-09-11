@@ -2,6 +2,12 @@ main {
   background-color: #823038;
 }
 
+body {
+  margin: 0;
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #f5f5f5; 
+}
+
 .articles-container {
   display: flex;
   justify-content: center;
