@@ -3,6 +3,10 @@ body {
     font-family: "Roboto Condensed", sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .container {
     display: grid;
 
@@ -131,12 +135,26 @@ footer {
 
 #hotelsmenu {
     display: flex;
+    flex-direction: column; /* Damit das innere Rechteck unter dem Text steht */
     justify-content: center;
+    align-items: center;
     text-align: center;
     color: white;
     text-shadow: 8px 8px 32px rgba(0,0,0,0.7);
-    margin: 34px;
+    margin: 34px 10px 10px 10px;
     font-weight: bold;
-    width: 100%;
+    width: auto;
     font-size: 48px;
+    background-color: #4f759b;
+    border-radius: 16px;
+    padding: 20px 40px;
+    box-sizing: border-box;
+}
+
+.hotelsmenu-inner {
+    width: 95%;
+    height: 120px;
+    background: black;
+    border-radius: 10px;
+    margin-top: 20px;
 }
