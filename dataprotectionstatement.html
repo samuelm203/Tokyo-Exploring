@@ -1,11 +1,151 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data protection statement</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Privacy & Data Protection — {{COMPANY_NAME}}</title>
+  <style>
+    :root{
+      --accent:#b00000; /* deep red */
+      --bg:#ffffff; /* white background for contrast */
+      --card:#f8f8f8; /* light gray cards */
+      --muted:#555555; /* muted black/gray */
+    }
+    *{box-sizing:border-box}
+    body{font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,'Helvetica Neue',Arial; margin:0;background:var(--bg);color:#000}
+    header{background:linear-gradient(90deg,var(--accent),#000);color:#fff;padding:40px 20px}
+    .container{max-width:1000px;margin:0 auto;padding:24px}
+    h1{margin:0;font-size:28px}
+    p.lead{margin:8px 0 0;opacity:.95}
+    .card{background:var(--card);border-radius:12px;padding:20px;margin-top:-30px;box-shadow:0 6px 24px rgba(0,0,0,.15)}
+    section{padding:18px 0;border-bottom:1px solid #ddd}
+    section:last-of-type{border-bottom:0}
+    h2{font-size:18px;margin:0 0 8px;color:var(--accent)}
+    p{margin:0 0 12px;color:#000}
+    .muted{color:var(--muted)}
+    ul{margin:0 0 12px 18px}
+    code{background:#eee;padding:2px 6px;border-radius:6px;font-size:13px;color:#b00000}
+    .placeholder{background:#fff3cd;border-left:4px solid #ffecb5;padding:10px;border-radius:8px;color:#7a5a00}
+    .actions{display:flex;gap:10px;flex-wrap:wrap}
+    .btn{display:inline-block;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:600}
+    .btn.primary{background:var(--accent);color:#fff}
+    .btn.ghost{background:transparent;border:1px solid #b00000;color:#b00000}
+    footer{padding:22px 0;color:var(--muted);font-size:13px;text-align:center;background:#000;color:#fff}
+    @media (max-width:700px){header{padding:28px 12px} .container{padding:12px}}
+  </style>
 </head>
 <body>
-    
+  <header>
+    <div class="container">
+      <h1>Data Protection statement</h1>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="card">
+
+      <section id="intro">
+        <p class="lead">This page explains what personal data we collect, why, and how you can exercise your rights.</p>
+        <br>
+        <h2>Who we are</h2>
+        <p class="muted">Controller: <strong>Tokyo Exploring</strong> • Address: Mattenhof 8, Kriens, Lucern, Switzerland</p>
+        <p>Effective date: <code>12.09.2025</code></p>
+      </section>
+
+      <section id="data-we-collect">
+        <h2>Data we collect</h2>
+        <p>We process the following categories of personal data:</p>
+        <ul>
+          <li>Contact details (name, email, phone)</li>
+          <li>Account & authentication data (username, hashed password)</li>
+          <li>Transactional data (billing, invoices) — if applicable</li>
+          <li>Usage & device data (IP address, cookies, analytics)</li>
+          <li>Support correspondence (messages you send us)</li>
+        </ul>
+        <div class="placeholder">Customize this list to match what your site actually collects.</div>
+      </section>
+
+      <section id="legal-basis">
+        <h2>Legal basis for processing</h2>
+        <p class="muted">(GDPR-aware phrasing — adapt if different jurisdiction)</p>
+        <ul>
+          <li>Performance of a contract — to provide services you request.</li>
+          <li>Legal compliance — to meet legal obligations.</li>
+          <li>Legitimate interests — for fraud prevention, analytics, and service improvements.</li>
+          <li>Consent — where cookies or marketing communications require it.</li>
+        </ul>
+      </section>
+
+      <section id="cookies">
+        <h2>Cookies & tracking</h2>
+        <p>We use cookies for essential site functions and for analytics/marketing. You can manage cookie preferences via your browser or the cookie banner.</p>
+        <ul>
+          <li>Strictly necessary cookies — required for basic site operation.</li>
+          <li>Functional cookies — remember preferences.</li>
+          <li>Analytics cookies — measure site usage.</li>
+          <li>Advertising cookies — used for personalized ads (third parties).</li>
+        </ul>
+      </section>
+
+      <section id="sharing">
+        <h2>Who we share data with</h2>
+        <p>We may share data with:</p>
+        <ul>
+          <li>Hosting and infrastructure providers (e.g., AWS, DigitalOcean)</li>
+          <li>Analytics providers (e.g., Google Analytics, Plausible)</li>
+          <li>Payment providers (e.g., Stripe, PayPal)</li>
+          <li>Legal and compliance advisors when required</li>
+        </ul>
+        <div class="placeholder">Replace with your actual third-party vendors and links to their privacy notices.</div>
+      </section>
+
+      <section id="retention">
+        <h2>Data retention</h2>
+        <p>We keep personal data only as long as necessary to fulfil the purposes described, and to meet legal obligations. Typical retention examples:</p>
+        <ul>
+          <li>Account data: until account deletion + 2 years for backup</li>
+          <li>Transactional data: 7 years (for tax/accounting) — adapt to local law</li>
+          <li>Logs & analytics: aggregated or deleted after 26 months</li>
+        </ul>
+      </section>
+
+      <section id="rights">
+        <h2>Your rights</h2>
+        <p>You have rights under data protection law (where applicable):</p>
+        <ul>
+          <li>Access to your data</li>
+          <li>Rectification</li>
+          <li>Erasure ("right to be forgotten")</li>
+          <li>Restriction & objection to processing</li>
+          <li>Data portability</li>
+          <li>Withdraw consent at any time (where processing is based on consent)</li>
+        </ul>
+        <p>To exercise your rights, contact: <strong>samuel_ming@sluz.ch</strong></p>
+      </section>
+
+      <section id="security">
+        <h2>Security</h2>
+        <p>We apply technical and organizational measures to protect personal data, including encryption in transit (TLS), access controls, and regular backups.</p>
+      </section>
+
+      <section id="contact">
+        <h2>Contact & complaints</h2>
+        <p>If you have questions, or wish to exercise rights, contact our Data Protection Officer (DPO) or responsible person:</p>
+        <p><strong>Samuel und Damir</strong> • Email: <strong>samuel_ming@sluz.ch</strong></p>
+        <p>If you are in the EU/EEA you can also lodge a complaint with your supervisory authority: <span class="muted">(list local authority)</span></p>
+      </section>
+
+      <section id="changes">
+        <h2>Changes to this policy</h2>
+        <p>We may update this policy. We will publish the updated policy with a new effective date.</p>
+      </section>
+    </div>
+
+    <footer>
+      <div class="container">
+        <small>&copy; Tokyo Exploring — Privacy & Data Protection</small>
+      </div>
+    </footer>
+  </main>
 </body>
 </html>
