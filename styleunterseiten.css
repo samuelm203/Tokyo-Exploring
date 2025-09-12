@@ -250,3 +250,44 @@ footer {
   padding: 40px 20px;  
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 800px) {
+  .articles-container-events {
+    grid-template-columns: 1fr; 
+    gap: 30px; 
+    padding: 20px 20px 60px 20px;
+  }
+
+  .contact-article {
+    padding: 30px 20px; 
+  }
+
+  .contactus {
+    padding: 20px 10px; 
+  }
+
+  .frameBoxmap {
+    height: 300px; 
+    margin: 20px auto 0 auto; 
+    padding: 10px; 
+  }
+
+  footer {
+    padding: 0 20px;
+    height: auto;
+  }
+
+  #footerkontakt {
+    margin-left: 12px;
+  }
+
+  #dataprotection {
+    margin-left: 12px;
+  }
+
+  #impressum {
+    margin-left: 12px;
+  }
+
+
+}

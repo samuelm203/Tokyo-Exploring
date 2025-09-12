@@ -525,3 +525,48 @@ footer {
         margin-left: 0;
     }
 }
+
+@media screen and (max-width: 615px) {
+    .welcome {
+        font-size: 24px;
+        padding: 0 10px;
+    }
+
+    .titelUnterseite {
+        font-size: 32px;
+    }
+
+    .beschreibungSeite {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+
+    .titelArtikel {
+        font-size: 18px;
+    }
+
+    #hotelsmenu, #sightsmenu, #streetfoodmenu {
+        font-size: 24px;
+        padding: 10px 20px;
+    }
+
+    .hotelsmenu-inner, .sightsmenu-inner, .streetfoodmenu-inner {
+        height: auto;
+        padding: 15px 0;
+    }
+
+    #hotelsmenutext, #sightsmenutext, #streetfoodmenutext {
+        font-size: 12px;
+    }
+
+    #hotelsmenulink, #sightsmenulink, #streetfoodmenulink {
+        font-size: 12px;
+        padding: 4px;
+    }
+
+    footer {
+        padding: 15px;
+        gap: 8px;
+    }
+
+}
