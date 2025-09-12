@@ -443,6 +443,7 @@ footer {
 
 @media screen and (max-width: 800px) {
     .container { 
+        overflow-x: hidden;
         grid-template-columns: 1fr;
         grid-template-rows: 80px auto auto auto;
         grid-template-areas: "header"
