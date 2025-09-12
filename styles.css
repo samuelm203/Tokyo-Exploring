@@ -389,6 +389,14 @@ footer {
     margin-left: 40px;
 }
 
+#otherPlaces {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
 /* Responsive Design */
 
 @media screen and (max-width: 1200px) { 
@@ -522,6 +530,10 @@ footer {
     }
 
     #impressum {
+        margin-left: 0;
+    }
+
+    #otherPlaces {
         margin-left: 0;
     }
 }

@@ -278,15 +278,19 @@ footer {
   }
 
   #footerkontakt {
-    margin-left: 12px;
+    margin-left: 0px;
   }
 
   #dataprotection {
-    margin-left: 12px;
+    margin-left: 0px;
   }
 
   #impressum {
-    margin-left: 12px;
+    margin-left: 0px;
+  }
+
+  #otherPlaces {
+    margin-left: 0px;
   }
 
 
