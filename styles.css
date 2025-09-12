@@ -380,3 +380,135 @@ footer {
     font-weight: bold;
     margin-left: 40px;
 }
+
+/* Responsive Design */
+
+@media screen and (max-width: 1200px) { 
+    .container {
+        grid-template-columns: 80px auto;
+        grid-template-rows: 80px auto auto;
+        grid-template-areas: "header nav"
+                              "main main"
+                              "footer footer";
+    }
+
+    .navlink {
+        font-size: 16px;
+    }
+
+    .welcome {
+        font-size: 48px;
+    }
+
+    .titelUnterseite {
+        font-size: 60px;
+    }
+
+    .beschreibungSeite {
+        font-size: 18px;
+    }
+
+    .titelArtikel {
+        font-size: 24px;
+    }
+
+    #hotelsmenu, #sightsmenu, #streetfoodmenu {
+        font-size: 36px;
+        padding: 16px 32px;
+    }
+
+    .hotelsmenu-inner, .sightsmenu-inner, .streetfoodmenu-inner {
+        height: 350px;
+    }
+
+    #hotelsmenutext, #sightsmenutext, #streetfoodmenutext {
+        margin: 20px 30px;
+        font-size: 16px;
+        max-width: 100%;
+    }
+
+    #hotelsmenulink, #sightsmenulink, #streetfoodmenulink {
+        font-size: 16px;
+        padding: 8px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .container { 
+        grid-template-columns: 1fr;
+        grid-template-rows: 80px auto auto auto;
+        grid-template-areas: "header"
+                              "nav"
+                              "main"
+                              "footer";
+    }
+
+    .nav {
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .navlink {
+        font-size: 16px;
+        margin: 0 10px;
+    }
+
+    .welcome {
+        font-size: 32px;
+        padding: 0 10px;
+    }
+
+    .titelUnterseite {
+        font-size: 40px;
+    }
+
+    .beschreibungSeite {
+        font-size: 16px;
+        padding: 0 10px;
+    }
+
+    .titelArtikel {
+        font-size: 20px;
+    }
+
+    #hotelsmenu, #sightsmenu, #streetfoodmenu {
+        font-size: 28px;
+        padding: 12px 24px;
+    }
+
+    .hotelsmenu-inner, .sightsmenu-inner, .streetfoodmenu-inner {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .hotelsmenu-inner img, .sightsmenu-inner img, .streetfoodmenu-inner img {
+        height: auto;
+        width: 80%;
+        margin: 0 0 20px 0; 
+        order: 1; 
+    }
+
+    #hotelsmenutext, #sightsmenutext, #streetfoodmenutext {
+        margin: 0 20px 20px 20px;
+        font-size: 14px;
+        max-width: 100%;
+        order: 2; 
+    }
+
+    #hotelsmenulink, #sightsmenulink, #streetfoodmenulink {
+        font-size: 14px;
+        padding: 6px;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        gap: 10px;
+    }
+
+    #dataprotection {
+        margin-left: 0;
+    }
+}
