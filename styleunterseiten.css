@@ -261,6 +261,13 @@ footer {
   font-family: "Roboto Condensed", sans-serif;
 }
 
+textarea{
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+input {
+  font-family: "Roboto Condensed", sans-serif;
+}
 
 @media screen and (max-width: 800px) {
   .articles-container-events {
